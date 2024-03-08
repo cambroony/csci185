@@ -1,0 +1,78 @@
+#wrapper{
+    display: grid;
+    border: solid 1px black;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+nav{
+    grid-column: 1/ span 3;
+    border: solid 1px black;
+}
+header{
+    grid-column: 1/span 3;
+    border: solid 1px black;
+    padding-left: 20;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.let_our_firm h2{
+font-size: 18px;
+}
+.let_our_firm{
+    border: solid 1px black;
+    padding-left: 10px;
+    grid-column: 1/span 2;
+}
+main{
+    grid-column: 1/span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    padding: 50px;
+    row-gap: 15px;
+}
+.know{
+    border: solid 1px black;
+}
+.areas{
+    border: solid 1px black;
+}
+.contact{
+    border: solid 1px black;
+    width: 250px;
+}
+.picture img{
+    width:250px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    grid-column: 1/span 3;
+}
+@media screen and (max-width: 900px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    #wrapper{
+        grid-template-columns: 1fr;
+    }
+    nav,header,footer,main,.let_our_firm{
+        grid-column: 1/span 1;
+    }
+    .contact{
+        width:100%;
+    }
+    .know{
+        grid-row: 2;
+    }
+    .picture{
+        display: flex;
+        justify-content: center;
+    }
+    .picture img{
+       border-radius: 50%;
+    }
+}

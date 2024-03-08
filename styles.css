@@ -6,9 +6,16 @@
 body {
     margin: 0px;
     font-family: Arial, sans-serif;
+    background-color:lightgreen;
 }
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
+}
+#tutorials{
+    background-color: rgb(102, 230, 102);
+}
+#homework{
+background-color: seagreen;
 }
