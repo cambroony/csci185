@@ -73,6 +73,7 @@ h2,h3,h4,h5{
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
     font-style: normal;
+    text-shadow: 2px 2px 2px #8b7f7f;
 }
 
 
@@ -129,6 +130,7 @@ main {
 .picture img {
     width: 250px;
     border: solid 5px rgba(53, 51, 54);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
 footer {
