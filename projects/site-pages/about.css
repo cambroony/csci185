@@ -1,0 +1,15 @@
+header {
+    grid-column: 1/span 3;
+    padding-left: 20;
+    background-image: url('../Header\ Pic.jpg');
+    /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* Example text color */
+    text-align: center;
+    padding: 100px 0;
+    /* Adjust padding as needed */
+    text-shadow: 4px 4px 4px #000000;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(53, 51, 54, 1)), url('./Header\ Pic.jpg');
+}

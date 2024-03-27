@@ -1,6 +1,6 @@
 function setup() {
     const canvasWidth = window.innerWidth;
-    const canvasHeight = window.innerHeight; 
+    const canvasHeight = window.innerHeight;
     createCanvas(canvasWidth, canvasHeight);
     background("pink");
 
@@ -12,13 +12,21 @@ function setup() {
     */
 
     // https://p5js.org/reference/#/p5/circle
-    fill("teal")
-    circle(550, 100, 100);
+    // fill("teal")
+    // circle(550, 100, 100);
 
     // https://p5js.org/reference/#/p5/rect
-    fill('hotpink')
-    rect(30, 20, 55, 55);
+    // fill('hotpink')
+    // rect(30, 20, 55, 55);
 
+    fill('orange')
+    ellipse(400, 300, 200, 150)
+    fill('white')
+    ellipse(355, 270, 20, 40)
+    fill('black')
+    ellipse(355, 270, 5, 15)
+    fill('orange')
+    triangle(500, 300, 600, 250, 600, 355)
     // add your drawing here:
     // https://p5js.org/reference/#/p5/point
     // point(110, 20);
@@ -33,7 +41,7 @@ function setup() {
     // Other shapes...
     // Polygon: https://p5js.org/reference/#/p5/beginShape
     // Line: https://p5js.org/reference/#/p5/line
-    
+
     // Curve: https://p5js.org/reference/#/p5/curve
 
 
