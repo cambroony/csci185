@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    background-color: lightgreen;
+}
+
+main {
+    height: 100vh;
+}
+
