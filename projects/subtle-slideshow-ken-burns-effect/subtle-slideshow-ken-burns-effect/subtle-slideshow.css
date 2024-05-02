@@ -243,6 +243,7 @@ width: 100%;
 header h1{
   position: unset;
   text-shadow: 4px 4px 4px #000000;
+  color:white;
 }
 p{
   color: white;
