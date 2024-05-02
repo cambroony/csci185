@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-body{
+
+body {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
-    margin:0;
+    margin: 0;
 }
+
+nav {
+    margin-top: 295px;
+}
+
 /* .libre-baskerville-regular {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
@@ -49,18 +55,15 @@ nav {
 
 header {
     grid-column: 1/span 3;
-    padding-left: 20;
-    background-image: url('./Header\ Pic.jpg');
-    /* Replace 'your-image.jpg' with the path to your image */
-    background-size: cover;
-    background-position: center;
+    /* padding-left: 20; */
+    /* background-image: url('./Header\ Pic.jpg'); */
+    /* background-size: cover; */
+    /* background-position: center; */
     color: white;
-    /* Example text color */
     text-align: center;
-    padding: 100px 0;
-    /* Adjust padding as needed */
+    /* padding: 100px 0; */
     text-shadow: 4px 4px 4px #000000;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(53, 51, 54, 1)), url('./Header\ Pic.jpg');
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(53, 51, 54, 1)), url('./Header\ Pic.jpg'); */
 }
 
 
@@ -70,7 +73,11 @@ nav ul {
     justify-content: space-around;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h2,h3,h4,h5{
+
+h2,
+h3,
+h4,
+h5 {
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
     font-style: normal;
@@ -96,7 +103,8 @@ main {
     row-gap: 15px;
     background-color: rgba(198, 218, 191);
 }
-.one-column{
+
+.one-column {
     grid-template-columns: 1fr;
 }
 
@@ -117,9 +125,7 @@ main {
     list-style: none;
 }
 
-.areas {
-
-}
+.areas {}
 
 .contact h5 {
     font-size: 18px;
@@ -148,9 +154,8 @@ footer {
     text-decoration: none;
     /* Remove underline */
 }
-.disclaimer_page p{
-    
-}
+
+.disclaimer_page p {}
 
 @media screen and (max-width: 900px) {
     main {
